@@ -23,7 +23,7 @@ h1, h2, h3{
 h1{
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 54px;
   text-align: left;
   color: 	#708090;
   padding: 0em;
@@ -33,12 +33,12 @@ h1{
 
 h3{
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: bold;
   padding-top: 1.5em;
 }
 
 h4{
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .list{
@@ -51,7 +51,7 @@ h4{
 a:link {
   color: blue;
   text-decoration: none;
-  line-height: 1.6em;
+  line-height: 19px;
 }
 
 a:visited {
