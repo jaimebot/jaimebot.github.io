@@ -10,8 +10,9 @@ body{
   padding: 0em;
   margin: 0em;
   font-family: 'times', serif;
-  font-size: 22px;
-  line-height: 19px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 21px;
   color: 	#708090;
   background-color: #ffffff;
 }
@@ -51,20 +52,20 @@ h4{
 a:link {
   color: blue;
   text-decoration: none;
-  line-height: 19px;
+  line-height: 21px;
 }
 
 a:visited {
   color: 	#708090;
   text-decoration: none;
-  line-height: 19px;
+  line-height: 21px;
 }
 
 a:hover {
   color: white;
   background-color: #1A237E;
   text-decoration: none;
-  line-height: 19px;
+  line-height: 21px;
 }
 
 .bio{
