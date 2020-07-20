@@ -13,7 +13,7 @@ body{
   font-size: 24px;
   font-weight: normal;
   line-height: 21px;
-  color: 	#708090;
+  color: #708090;
   background-color: #ffffff;
 }
 
@@ -50,13 +50,15 @@ h4{
 }
 
 a:link {
-  color: blue;
+  color: #708090;
+  background-color: #F5EEF8;
   text-decoration: none;
   line-height: 21px;
 }
 
 a:visited {
   color: 	#708090;
+  background-color: #F4D03F;
   text-decoration: none;
   line-height: 21px;
 }
