@@ -9,7 +9,7 @@ html{
 body{
   padding: 0em;
   margin: 0em;
-  font-family: 'times new roman', serif;
+  font-family: 'times', serif;
   font-size: 22px;
   line-height: 19px;
   color: 	#708090;
@@ -17,13 +17,13 @@ body{
 }
 
 h1, h2, h3{
-  font-family: 'times new roman', serif;
+  font-family: 'times', serif;
 }
 
 h1{
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 3em;
+  font-size: 30px;
   text-align: left;
   color: 	#708090;
   padding: 0em;
