@@ -73,7 +73,7 @@ a:hover {
 .bio{
   padding: 1.8em 0em 3em 2em;
   text-align: justify;
-  float: right;
+  float: left;
   width: 30vw;
   z-index: 99999;
   position: relative;
@@ -133,3 +133,11 @@ a:hover {
           display: block;
         }
     }
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
