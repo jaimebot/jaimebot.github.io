@@ -10,9 +10,9 @@ body{
   padding: 0em;
   margin: 0em;
   font-family: 'times', serif;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: normal;
-  line-height: 29.5px;
+  line-height: 28px;
   color: #708090;
   background-color: #ffffff;
 }
@@ -53,21 +53,21 @@ a:link {
   color: #708090;
   background-color: #F5EEF8;
   text-decoration: none;
-  line-height: 29.5px;
+  line-height: 28px;
 }
 
 a:visited {
   color: 	#708090;
   background-color: #F4D03F;
   text-decoration: none;
-  line-height: 29.5px;
+  line-height: 28px;
 }
 
 a:hover {
   color: white;
   background-color: #1A237E;
   text-decoration: none;
-  line-height: 29.5px;
+  line-height: 28px;
 }
 
 .bio{
