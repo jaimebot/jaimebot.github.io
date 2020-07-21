@@ -27,7 +27,7 @@ h1{
   font-size: 54px;
   text-align: left;
   color: 	#708090;
-  padding: 1.8em 0em 3em 2em;
+  padding: 3em 0em 0em 0em;
   margin-bottom: 2em;
 
 }
@@ -74,7 +74,7 @@ a:hover {
   padding: 1.8em 0em 3em 2em;
   text-align: justify;
   float: left;
-  width: 50vw;
+  width: 40vw;
   z-index: 99999;
   position: relative;
 }
