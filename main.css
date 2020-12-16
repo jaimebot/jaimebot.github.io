@@ -51,20 +51,20 @@ h4{
 
 a:link {
   color: #708090;
-  background-color: #F5EEF8;
+  background-color: #A2D9CE;
   text-decoration: none;
   line-height: 28px;
 }
 
 a:visited {
   color: 	#708090;
-  background-color: #F4D03F;
+  background-color: #DAF7A6;
   text-decoration: none;
   line-height: 28px;
 }
 
 a:hover {
-  color: white;
+  color: #DAF7A6;
   background-color: #1A237E;
   text-decoration: none;
   line-height: 28px;
