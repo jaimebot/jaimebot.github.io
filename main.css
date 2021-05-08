@@ -13,8 +13,8 @@ body{
   font-size: 26px;
   font-weight: normal;
   line-height: 28px;
-  color: #708090;
-  background-color: #ffffff;
+  color: #e1d0d0;
+  background-color: #150949;
 }
 
 h1, h2, h3{
@@ -50,22 +50,22 @@ h4{
 }
 
 a:link {
-  color: #708090;
-  background-color: #E0F7FA;
+  color: #e1e1d0;
+  background-color: #150949;
   text-decoration: none;
   line-height: 28px;
 }
 
 a:visited {
-  color: 	#ffffff;
-  background-color: #ffffff;
+  color: 	#e1d0d0;
+  background-color: #150949;
   text-decoration: none;
   line-height: 28px;
 }
 
 a:hover {
-  color: #DAF7A6;
-  background-color: #1A237E;
+  color: #150949;
+  background-color: #e1e1d0;
   text-decoration: none;
   line-height: 28px;
 }
