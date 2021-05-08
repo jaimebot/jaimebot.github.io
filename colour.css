@@ -5,7 +5,7 @@ color sets the colour of the text on the page.
  */
 
 html, body{
-  background-color: #ffffff;
+  background-color: #150949;
   color: 	#708090;
 }
 
@@ -58,7 +58,7 @@ This sets the colour of the circle around each of the contact icons
  */
 
 .fab, .fas{
-  background-color: #ffffff;
+  background-color: #150949;
 }
 
 /*
