@@ -50,15 +50,15 @@ h4{
 }
 
 a:link {
-  color: #e1e1d0;
-  background-color: #150949;
+  color: #150949;
+  background-color: #d0d8e1;
   text-decoration: none;
   line-height: 28px;
 }
 
 a:visited {
-  color: 	#e1d0d0;
-  background-color: #150949;
+  color: 	#150949;
+  background-color: #e1d0d0;
   text-decoration: none;
   line-height: 28px;
 }
