@@ -59,14 +59,14 @@ a:link {
 a:visited {
   color: 	#e1e1d0;
   background-color: #150949;
-  text-decoration: none;
+  text-decoration: underline;
   line-height: 21px;
 }
 
 a:hover {
   color: #e1d0d0;
   background-color: #150949;
-  text-decoration: none;
+  text-decoration: underline;
   line-height: 21px;
 }
 
