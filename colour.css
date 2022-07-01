@@ -38,11 +38,11 @@ This sets the colour of the links on your page
  */
 
 a, a:link {
-  color: 	#C0E38B;
+  color: 	#2D2E2E;
 }
 
 a, a:visited {
-  color: #C0E38B;
+  color: #2D2E2E;
 }
 
 /*
