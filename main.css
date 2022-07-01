@@ -3,7 +3,7 @@
 
 
 html{
-  background-color: #150949;
+  background-color: #454742;
 }
 
 body{
@@ -13,8 +13,8 @@ body{
   font-size: 22px;
   font-weight: normal;
   line-height: 21px;
-  color: #e1d0d0;
-  background-color: #150949;
+  color: #DAFEEA;
+  background-color: #454742;
 }
 
 h1, h2, h3{
@@ -26,7 +26,7 @@ h1{
   font-weight: 900;
   font-size: 54px;
   text-align: left;
-  color: 	#708090;
+  color: 	#DAFEEA;
   padding: 0em;
   margin-bottom: 2em;
 
@@ -50,22 +50,22 @@ h4{
 }
 
 a:link {
-  color: #e1d0d0;
-  background-color: #150949;
+  color: #454742;
+  background-color: #DAFEEA;
   text-decoration: underline;
   line-height: 21px;
 }
 
 a:visited {
-  color: 	#e1e1d0;
-  background-color: #150949;
+  color: 	#C0E38B;
+  background-color: #454742;
   text-decoration: underline;
   line-height: 21px;
 }
 
 a:hover {
-  color: #e1d0d0;
-  background-color: #150949;
+  color: #454742;
+  background-color: #454742;
   text-decoration: underline;
   line-height: 21px;
 }
