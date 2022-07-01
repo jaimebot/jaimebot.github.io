@@ -3,7 +3,7 @@
 
 
 html{
-  background-color: #454742;
+  background-color: #2D2E2E;
 }
 
 body{
@@ -14,7 +14,7 @@ body{
   font-weight: normal;
   line-height: 21px;
   color: #DAFEEA;
-  background-color: #454742;
+  background-color: #2D2E2E;
 }
 
 h1, h2, h3{
@@ -50,7 +50,7 @@ h4{
 }
 
 a:link {
-  color: #454742;
+  color: #2D2E2E;
   background-color: #DAFEEA;
   text-decoration: underline;
   line-height: 21px;
@@ -58,14 +58,14 @@ a:link {
 
 a:visited {
   color: 	#C0E38B;
-  background-color: #454742;
+  background-color: #2D2E2E;
   text-decoration: underline;
   line-height: 21px;
 }
 
 a:hover {
-  color: #454742;
-  background-color: #454742;
+  color: #2D2E2E;
+  background-color: #2D2E2E;
   text-decoration: underline;
   line-height: 21px;
 }
