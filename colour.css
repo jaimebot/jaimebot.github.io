@@ -5,7 +5,7 @@ color sets the colour of the text on the page.
  */
 
 html, body{
-  background-color: #454742;
+  background-color: #2D2E2E;
   color: 	#DAFEEA;
 }
 
@@ -50,7 +50,7 @@ This sets the colour of the link when you hover over it
  */
 
 a:hover {
-  color: #454742;
+  color: #2D2E2E;
 }
 
 /*
@@ -58,7 +58,7 @@ This sets the colour of the circle around each of the contact icons
  */
 
 .fab, .fas{
-  background-color: #454742;
+  background-color: #2D2E2E;
 }
 
 /*
