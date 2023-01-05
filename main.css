@@ -18,8 +18,8 @@ html{
 	bottom: 0px;
 	text-align: left;
         font-family: 'times', serif;
-	font-size: 16px;
-	line-height: 17px;
+	font-size: 18px;
+	line-height: 16px;
 	color: grey;
 	background: #2D2E2E;
 	text-transform: none;
@@ -27,10 +27,10 @@ html{
 
 	#goodmorning-content {
 	padding-top: 20px;
-        padding-left: 60px;
+        padding-left: 70px;
         padding-right: 60px;
         padding-bottom: 20px;
-	width: 500px;
+	width: 300px;
 	}
 	
 	#goodnight {
@@ -39,10 +39,10 @@ html{
 	bottom: 0px;
 	text-align: left;
 	font-family: 'times', serif;
-	font-size: 16px;
-	line-height: 17px;
+	font-size: 18px;
+	line-height: 16px;
 	color: grey;
-	background: transparent;
+	background: white;
 	text-transform: none;
 	}
 	
@@ -51,7 +51,7 @@ html{
         padding-left: 60px;
         padding-right: 60px;
         padding-bottom: 20px;
-        width: 500px;
+        width: 300px;
         float: right;
 	}
 
@@ -134,10 +134,9 @@ a:hover {
 }
 
     .content {
-    font-size: 16px;
-    line-height: 17px;
+    font-size: 18px;
+    line-height: 16px;
     font-family: 'times', serif;
-    color: #1B2631;
     list-style-type: none;
     font-weight: 300;
     text-transform: none;
@@ -207,6 +206,7 @@ a:hover {
         .list{
           padding: 0em 3em;
         }
+		
         .bio{
           padding: 1em 0;
           float: none;
@@ -234,6 +234,7 @@ a:hover {
         .list{
           padding: 0em 3em;
         }
+		
         .bio{
           padding: 1em 0;
           float: none;
