@@ -180,7 +180,7 @@ a:hover {
 }
 
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
   /* only for screens wider or equal to 630 pixels */
   /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
   
@@ -188,9 +188,14 @@ a:hover {
     float: left;
     width: 100% ;
   }
-	
+	 .list{
+		 padding: 0em 3em;}
+
   .bottom {
     float: right;
     width: 100%;
   }
+	 .list{
+		 padding: 0em 3em; }
+
 }
