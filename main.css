@@ -8,13 +8,13 @@ html{
 
 	body {
 	width: 100%;
-	padding: 50px;
-	margin: 50px;
+	padding: 0;
+	margin: 0;
 	}
 	
 	#goodmorning {
 	top: 0px;
-	left: 0px;
+	left: 60px;
 	bottom: 0px;
 	text-align: left;
   font-family: 'times', serif;
@@ -170,7 +170,7 @@ a:hover {
     animation: color-animation2 15s ease infinite normal;
     }
 
-	.disable-text {
+    .disable-text {
      -moz-user-select: none; /* Firefox */
      -ms-user-select: none; /* Internet Explorer */
      -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
@@ -191,6 +191,7 @@ a:hover {
 
 @media only screen and (max-device-width: 480px) {
 
+	.top {
         h1{
           margin-right: -0.7em;
           padding-bottom: 0.4em;
@@ -217,6 +218,34 @@ a:hover {
         }
     }
 
+	.bottom {
+	h1{
+          margin-right: -0.7em;
+          padding-bottom: 0.4em;
+        }
+        h1.name{
+          text-align: center;
+          margin: 2em 0 0 0;
+          padding: 0;
+          font-size: 2em;
+        }
+        .list{
+          padding: 0em 3em;
+        }
+        .bio{
+          padding: 1em 0;
+          float: none;
+          text-align: left;
+          width: 100%;
+          margin: 0 auto;
+        }
+
+        .bioTitle{
+          display: block;
+        }
+    }
+
+		
 .disable-select {
     user-select: none; /* supported by Chrome and Opera */
    -webkit-user-select: none; /* Safari */
