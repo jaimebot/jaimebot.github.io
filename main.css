@@ -42,7 +42,7 @@ html{
 	font-size: 18px;
 	line-height: 16px;
 	color: grey;
-	background: white;
+	background: transparent;
 	text-transform: none;
 	}
 	
@@ -132,15 +132,6 @@ a:hover {
 .contact a{
   text-decoration: underline;
 }
-
-    .content {
-    font-size: 18px;
-    line-height: 16px;
-    font-family: 'times', serif;
-    list-style-type: none;
-    font-weight: 300;
-    text-transform: none;
-    }
     
     .img {
     width: 100%;
