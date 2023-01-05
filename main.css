@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
+<style type="text/css">
 
 html{
   background-color: #2D2E2E;
@@ -179,23 +180,4 @@ a:hover {
     to   { opacity: 1; }
 }
 
-
-@media only screen and (max-width: 480px) {
-  /* only for screens wider or equal to 630 pixels */
-  /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
-  
-.top {
-    float: left;
-    width: 100% ;
-  }
-	 .list{
-		 padding: 0em 3em;}
-
-  .bottom {
-    float: right;
-    width: 100%;
-  }
-	 .list{
-		 padding: 0em 3em; }
-
-}
+</style>
