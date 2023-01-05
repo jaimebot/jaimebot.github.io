@@ -14,10 +14,10 @@ html{
 	
 	#goodmorning {
 	top: 0px;
-	left: 60px;
+	left: 0px;
 	bottom: 0px;
 	text-align: left;
-  font-family: 'times', serif;
+        font-family: 'times', serif;
 	font-size: 16px;
 	line-height: 17px;
 	color: grey;
@@ -27,9 +27,9 @@ html{
 
 	#goodmorning-content {
 	padding-top: 20px;
-    padding-left: 6px;
-    padding-right: 60px;
-    padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 20px;
 	width: 500px;
 	}
 	
@@ -47,12 +47,12 @@ html{
 	}
 	
 	#goodnight-content {
-    padding-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 20px;
-    width: 500px;
-    float: right;
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 20px;
+        width: 500px;
+        float: right;
 	}
 
 h1, h2, h3{
@@ -64,7 +64,7 @@ h1{
   font-weight: 900;
   font-size: 54px;
   text-align: left;
-  color: 	#DAFEEA;
+  color: #DAFEEA;
   padding: 0em;
   margin-bottom: 2em;
 
@@ -133,17 +133,17 @@ a:hover {
   text-decoration: underline;
 }
 
- .content {
+    .content {
     font-size: 16px;
-	 line-height: 17px;
-	font-family: 'times', serif;
-	color: #1B2631;
+    line-height: 17px;
+    font-family: 'times', serif;
+    color: #1B2631;
     list-style-type: none;
     font-weight: 300;
-	text-transform: none;
+    text-transform: none;
     }
     
-    img {
+    .img {
     width: 100%;
     height: 100%;
     }
@@ -196,12 +196,14 @@ a:hover {
           margin-right: -0.7em;
           padding-bottom: 0.4em;
         }
+		
         h1.name{
           text-align: center;
           margin: 2em 0 0 0;
           padding: 0;
           font-size: 2em;
         }
+		
         .list{
           padding: 0em 3em;
         }
