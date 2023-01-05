@@ -8,8 +8,8 @@ html{
 
 	body {
 	width: 100%;
-	padding: 0;
-	margin: 0;
+	padding: 50px;
+	margin: 50px;
 	}
 	
 	#goodmorning {
@@ -18,7 +18,8 @@ html{
 	bottom: 0px;
 	text-align: left;
   font-family: 'times', serif;
-	font-size: 12px;
+	font-size: 16px;
+	line-height: 17px;
 	color: grey;
 	background: #2D2E2E;
 	text-transform: none;
@@ -38,7 +39,8 @@ html{
 	bottom: 0px;
 	text-align: left;
 	font-family: 'times', serif;
-	font-size: 12px;
+	font-size: 16px;
+	line-height: 17px;
 	color: grey;
 	background: transparent;
 	text-transform: none;
@@ -132,8 +134,9 @@ a:hover {
 }
 
  .content {
-    font-size: 14px;
-	font-family: Helvetica;
+    font-size: 16px;
+	 line-height: 17px;
+	font-family: 'times', serif;
 	color: #1B2631;
     list-style-type: none;
     font-weight: 300;
