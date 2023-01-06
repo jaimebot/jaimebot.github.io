@@ -31,7 +31,7 @@ html{
         padding-left: 6px;
         padding-right: 60px;
         padding-bottom: 20px;
-	width: 300px;
+	width: 400px;
 	}
 	
 	#goodnight {
@@ -52,7 +52,7 @@ html{
         padding-left: 60px;
         padding-right: 60px;
         padding-bottom: 20px;
-        width: 300px;
+        width: 400px;
         float: right;
 	}
 
@@ -84,7 +84,7 @@ h4{
 .list{
   padding: 3em 8em;
   animation: fadein 2s;
-  position: absolute;
+  position: relative;
   z-index: 0;
 }
 
@@ -96,7 +96,7 @@ a:link {
 }
 
 a:visited {
-  color: 	#2D2E2E;
+  color: #2D2E2E;
   background-color: #DAFEEA;
   text-decoration: underline;
   line-height: 21px;
