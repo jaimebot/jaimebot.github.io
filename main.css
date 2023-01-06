@@ -24,7 +24,7 @@
    	padding-left: 6px;
     	padding-right: 60px;
     	padding-bottom: 20px;
-	width: 300px;
+	width: 400px;
 	}
 	
 	#goodnight {
@@ -36,7 +36,7 @@
 	font-size: 18px;
 	line-height: 16px;
 	color: grey;
-	background: transparent;
+	background: #2D2E2E;
 	text-transform: none;
 	}
 	
@@ -45,7 +45,7 @@
     	padding-left: 60px;
     	padding-right: 60px;
     	padding-bottom: 20px;
-    	width: 300px;
+    	width: 400px;
     	float: right;
 	}
 	
@@ -79,18 +79,6 @@
 	padding-bottom: 20px;
 	text-transform: lowercase;
 	text-align: left;
-	}
-	
-	a {
-	font-size: 14px;
-	font-family: Helvetica;
-	color: #1B2631;
-	line-height: 11px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-	text-transform: lowercase;
-	text-align: left;
-	text-decoration: none;
 	}
 	
 	h4 {
@@ -135,7 +123,6 @@
     height: 50%;
     width: 100%;
     overflow-y: scroll;
-    overflow-x: scroll;
     animation: color-animation2 15s ease infinite normal;
     }
 
