@@ -116,17 +116,17 @@ a:hover {
 
     .top {
     top: 0;
-    height: 50%;
-    width: 100%;
-    overflow-y: scroll;
+    height: 100%;
+    width: 50%;
+    overflow-x: scroll;
     animation: color-animation1 15s ease infinite normal;
     }
 
     .bottom {
     bottom: 0;
-    height: 50%;
-    width: 100%;
-    overflow-y: scroll;
+    height: 100%;
+    width: 50%;
+    overflow-x: scroll;
     animation: color-animation2 15s ease infinite normal;
     }
 
