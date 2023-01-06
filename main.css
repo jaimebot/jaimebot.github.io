@@ -50,55 +50,59 @@
 	}
 	
 	
-	h1 {
-	font-size: 14px;
-	font-family: Helvetica;
-	color: #1B2631;
-	line-height: 11px;
-	padding-bottom: 20px;
-	text-transform: lowercase;
-	padding-left: 40px;
-	}
-	
-	h2 {
-	font-size: 14px;
-	font-family: Helvetica;
-	color: #1B2631;
-	line-height: 11px;
-	padding-top:40px;
-	padding-bottom: 20px;
-	text-transform: lowercase;
-	}
-	
-	h3 {
-	font-size: 14px;
-	font-family: Helvetica;
-	color: #1B2631;
-	line-height: 11px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-	text-transform: lowercase;
-	text-align: left;
-	}
-	
-	h4 {
-	font-size: 14px;
-	font-family: Helvetica;
-	color: #1B2631;
-	line-height: 11px;
-	padding-bottom: 20px;
-	text-transform: lowercase;
-	padding-left: 40px;
-	text-align: right;
-	}
-	
- 	.list{
-  	padding: 3em 8em;
-  	animation: fadein 2s;
-  	position: relative;
-  	z-index: 0;
-	}
-    
+h1, h2, h3 {
+  font-family: 'times', serif;
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 54px;
+  text-align: left;
+  color: #DAFEEA;
+  padding: 0em;
+  margin-bottom: 2em;
+
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 1.5em;
+}
+
+h4{
+  font-weight: bold;
+}
+
+.list{
+  padding: 3em 8em;
+  animation: fadein 2s;
+  position: relative;
+  z-index: 0;
+}
+
+a:link {
+  color: #2D2E2E;
+  background-color: #DAFEEA;
+  text-decoration: underline;
+  line-height: 21px;
+}
+
+a:visited {
+  color: #2D2E2E;
+  background-color: #DAFEEA;
+  text-decoration: underline;
+  line-height: 21px;
+}
+
+a:hover {
+  color: #2D2E2E;
+  background-color: #2D2E2E;
+  text-decoration: underline;
+  line-height: 21px;
+}
+
     	.img {
     	width: 100%;
     	height: 100%;
@@ -112,7 +116,7 @@
 
     .top {
     top: 0;
-    height: 50%;
+    height: 30%;
     width: 100%;
     overflow-y: scroll;
     animation: color-animation1 15s ease infinite normal;
@@ -120,14 +124,14 @@
 
     .bottom {
     bottom: 0;
-    height: 50%;
+    height: 80%;
     width: 100%;
     overflow-y: scroll;
     animation: color-animation2 15s ease infinite normal;
     }
 
 
-	.disable-text {
+    .disable-text {
      -moz-user-select: none; /* Firefox */
      -ms-user-select: none; /* Internet Explorer */
      -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
