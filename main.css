@@ -1,7 +1,7 @@
 <style type="text/css">
 
 	body {
-	width: 100%;
+	width: 100vh;
 	padding: 0;
 	margin: 0;
 	}
@@ -24,7 +24,8 @@
    	padding-left: 60px;
     	padding-right: 60px;
     	padding-bottom: 20px;
-	width: 400px;
+	width: 100vh;
+	height: 50vh;
 	}
 	
 	#goodnight {
@@ -45,7 +46,8 @@
     	padding-left: 60px;
     	padding-right: 60px;
     	padding-bottom: 20px;
-    	width: 400px;
+    	width: 100vh;
+	height: 50vh;
     	float: right;
 	}
 	
