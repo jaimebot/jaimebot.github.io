@@ -24,8 +24,8 @@
    	padding-left: 60px;
     	padding-right: 60px;
     	padding-bottom: 10px;
-	width: 50%;
-		    	float: left;
+	width: 50vh;
+        float: left;
 
 	}
 	
@@ -47,7 +47,7 @@
     	padding-left: 60px;
     	padding-right: 60px;
     	padding-bottom: 10px;
-    	width: 50%;
+    	width: 50vh;
     	float: right;
 	}
 	
