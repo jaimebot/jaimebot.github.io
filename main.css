@@ -84,7 +84,7 @@ h4{
 .list{
   padding: 3em 8em;
   animation: fadein 2s;
-  position: relative;
+  position: absolute;
   z-index: 0;
 }
 
@@ -140,7 +140,7 @@ a:hover {
     }
     
     .top, .bottom {
-    position: relative;
+    position: absolute;
     left: 0;
     right: 0;
     }
