@@ -21,7 +21,7 @@
 
 	#goodmorning-content {
 	padding-top: 20px;
-   	padding-left: 0px;
+   	padding-left: 60px;
     	padding-right: 60px;
     	padding-bottom: 20px;
 	width: 400px;
@@ -43,7 +43,7 @@
 	#goodnight-content {
     	padding-top: 20px;
     	padding-left: 60px;
-    	padding-right: 0px;
+    	padding-right: 60px;
     	padding-bottom: 20px;
     	width: 400px;
     	float: right;
