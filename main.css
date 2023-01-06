@@ -24,7 +24,7 @@
    	padding-left: 0px;
     	padding-right: 60px;
     	padding-bottom: 20px;
-	width: 100vh;
+	width: 400px;
 	}
 	
 	#goodnight {
@@ -45,7 +45,7 @@
     	padding-left: 60px;
     	padding-right: 0px;
     	padding-bottom: 20px;
-    	width: 100vh;
+    	width: 400px;
     	float: right;
 	}
 	
@@ -76,7 +76,7 @@ h4{
 }
 
 .list{
-  padding: 150%;
+  padding: 3em 8em;
   animation: fadein 2s;
   position: relative;
   z-index: 0;
@@ -163,7 +163,7 @@ a:hover {
         }
         
         .list{
-          padding: 150%;
+          padding: 3em 8em;
 		animation: fadein 2s;
   position: relative;
   z-index: 0;
