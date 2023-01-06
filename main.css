@@ -13,7 +13,7 @@
 	text-align: left;
         font-family: 'times', serif;
 	font-size: 18px;
-	line-height: 16px;
+	line-height: 17px;
 	color: grey;
 	background: #2D2E2E;
 	text-transform: none;
@@ -21,11 +21,10 @@
 
 	#goodmorning-content {
 	padding-top: 20px;
-   	padding-left: 6px;
+   	padding-left: 60px;
     	padding-right: 60px;
     	padding-bottom: 20px;
-	width: 100%;
-	float: left;
+	width: 50%;
 	}
 	
 	#goodnight {
@@ -35,7 +34,7 @@
 	text-align: left;
 	font-family: 'times', serif;
 	font-size: 18px;
-	line-height: 16px;
+	line-height: 167px;
 	color: grey;
 	background: #2D2E2E;
 	text-transform: none;
@@ -46,7 +45,7 @@
     	padding-left: 60px;
     	padding-right: 60px;
     	padding-bottom: 20px;
-    	width: 100%;
+    	width: 50%;
     	float: right;
 	}
 	
@@ -87,21 +86,21 @@ a:link {
   color: #2D2E2E;
   background-color: #DAFEEA;
   text-decoration: underline;
-  line-height: 16px;
+  line-height: 17px;
 }
 
 a:visited {
   color: #2D2E2E;
   background-color: #DAFEEA;
   text-decoration: underline;
-  line-height: 16px;
+  line-height: 17px;
 }
 
 a:hover {
   color: #2D2E2E;
   background-color: #2D2E2E;
   text-decoration: underline;
-  line-height: 16px;
+  line-height: 17px;
 }
 
     	.img {
@@ -150,73 +149,6 @@ a:hover {
     to   { opacity: 1; }
 }
 
-@media only screen and (max-device-width: 480px) {
-
-	.top {
-        h1{
-          margin-right: -0.7em;
-          padding-bottom: 0.4em;
-        }
-		
-        h1.name{
-          text-align: center;
-          margin: 2em 0 0 0;
-          padding: 0;
-          font-size: 2em;
-        }
-		
-        .list{
-          padding: 0em 3em;
-animation: fadein 2s;
-  position: relative;
-  z-index: 0;
-        }
-		
-        .bio{
-          padding: 1em 0;
-          float: none;
-          text-align: left;
-          width: 100%;
-          margin: 0 auto;
-        }
-
-        .bioTitle{
-          display: block;
-        }
-    }
-
-	.bottom {
-	h1{
-          margin-right: -0.7em;
-          padding-bottom: 0.4em;
-        }
-        h1.name{
-          text-align: center;
-          margin: 2em 0 0 0;
-          padding: 0;
-          font-size: 2em;
-        }
-		
-        .list{
-        padding: 0em 3em;
-	animation: fadein 2s;
-  	position: relative;
-  	z-index: 0;
-        }
-		
-        .bio{
-          padding: 1em 0;
-          float: none;
-          text-align: left;
-          width: 100%;
-          margin: 0 auto;
-        }
-
-        .bioTitle{
-          display: block;
-        }
-    }
-    
 	@media only screen and (max-device-width: 480px) {
 
         h1{
@@ -230,7 +162,7 @@ animation: fadein 2s;
           font-size: 2em;
         }
         .list{
-          padding: 0em 3em;
+          padding: 3em 8em;
         }
 		
         .bio{
