@@ -12,8 +12,8 @@
 	bottom: 0px;
 	text-align: left;
         font-family: 'times', serif;
-	font-size: 18px;
-	line-height: 17px;
+	font-size: 20px;
+	line-height: 19px;
 	color: grey;
 	background: #2D2E2E;
 	text-transform: none;
@@ -24,7 +24,7 @@
    	padding-left: 20px;
     	padding-right: 20px;
     	padding-bottom: 10px;
-	width: 100%;
+	width: 50%;
         float: left;
 
 	}
@@ -35,8 +35,8 @@
 	bottom: 0px;
 	text-align: left;
 	font-family: 'times', serif;
-	font-size: 18px;
-	line-height: 17px;
+	font-size: 20px;
+	line-height: 19px;
 	color: grey;
 	background: #2D2E2E;
 	text-transform: none;
@@ -47,7 +47,7 @@
     	padding-left: 20px;
     	padding-right: 20px;
     	padding-bottom: 10px;
-    	width: 100%;
+    	width: 50%;
     	float: right;
 	}
 	
@@ -88,21 +88,21 @@ a:link {
   color: #2D2E2E;
   background-color: #DAFEEA;
   text-decoration: underline;
-  line-height: 17px;
+  line-height: 19px;
 }
 
 a:visited {
   color: #2D2E2E;
   background-color: #DAFEEA;
   text-decoration: underline;
-  line-height: 17px;
+  line-height: 19px;
 }
 
 a:hover {
   color: #2D2E2E;
   background-color: #2D2E2E;
   text-decoration: underline;
-  line-height: 17px;
+  line-height: 19px;
 }
 
     	.img {
