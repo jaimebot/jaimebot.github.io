@@ -25,6 +25,7 @@
     	padding-right: 60px;
     	padding-bottom: 20px;
 	width: 400px;
+	float: left;
 	}
 	
 	#goodnight {
@@ -116,16 +117,16 @@ a:hover {
 
     .top {
     top: 0;
-    height: 100%;
-    width: 50%;
+    height: 50%;
+    width: 100%;
     overflow-y: scroll;
     animation: color-animation1 15s ease infinite normal;
     }
 
     .bottom {
     bottom: 0;
-    height: 100%;
-    width: 50%;
+    height: 50%;
+    width: 100%;
     overflow-y: scroll;
     animation: color-animation2 15s ease infinite normal;
     }
