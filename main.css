@@ -1,15 +1,102 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
-
 <style type="text/css">
 
-html{
-  background-color: #2D2E2E;
-}
+        @keyframes color-animation1 {
+		/* 
+			the colors at "midnight"
+		*/
+		0%, 100% {
+			background: rgb(243,235,235,0.4);
+		}
+		
+	                    /* The color during astronomical_twilight_begin */
+			    13% {
+			       background: rgb(241,233,233,0.4);
+			    }
+						/* The color during nautical_twilight_begin */
+			    17% {
+			       background: rgb(238,230,230,0.4);
+			    }
+						/* The color during civil_twilight_begin */
+			    20% {
+			       background: rgb(228,224,224,0.4);
+			    }
+						/* The color during sunrise */
+			    23% {
+			       background: rgb(219,214,214,0.4);
+			    }
+						/* The color during transit */
+			    54% {
+			       background: rgb(220,216,216,0.4);
+			    }
+						/* The color during sunset */
+			    86% {
+			       background: rgb(229,224,224,0.4);
+			    }
+						/* The color during civil_twilight_end */
+			    88% {
+			       background: rgb(231,224,224,0.4);
+			    }
+						/* The color during nautical_twilight_end */
+			    91% {
+			       background: rgb(225,221,221,0.4);
+			    }
+						/* The color during astronomical_twilight_end */
+			    95% {
+			       background: rgb(214,210,210,0.4);
+			    }
+			    
+        }
+        
+     @keyframes color-animation2 {
+		/* 
+			the colors at "midnight"
+		*/
+		0%, 100% {
+			background: rgb(222,222,222,0.4);
+		}
+		
+	                    /* The color during astronomical_twilight_begin */
+			    13% {
+			       background: rgb(224,222,222,0.4);
+			    }
+						/* The color during nautical_twilight_begin */
+			    17% {
+			       background: rgb(227,224,224,0.4);
+			    }
+						/* The color during civil_twilight_begin */
+			    20% {
+			       background: rgb(231,224,224,0.4);
+			    }
+						/* The color during sunrise */
+			    23% {
+			       background: rgb(231,224,224,0.4);
+			    }
+						/* The color during transit */
+			    54% {
+			       background: rgb(232,225,225,0.4);
+			    }
+						/* The color during sunset */
+			    86% {
+			       background: rgb(235,224,224,0.4);
+			    }
+						/* The color during civil_twilight_end */
+			    88% {
+			       background: rgb(236,225,225,0.4);
+			    }
+						/* The color during nautical_twilight_end */
+			    91% {
+			       background: rgb(237,223,223,0.4);
+			    }
+						/* The color during astronomical_twilight_end */
+			    95% {
+			       background: rgb(239,220,220,0.4);
+			    }
+			    
+        }
 
 	body {
-	width: 100%;
-	padding: 0;
+	width: 100%
+	padding: 0
 	margin: 0;
 	}
 	
@@ -18,20 +105,19 @@ html{
 	left: 0px;
 	bottom: 0px;
 	text-align: left;
-        font-family: 'times', serif;
-	font-size: 18px;
-	line-height: 16px;
+	font-family: helvetica;
+	font-size: 12px;
 	color: grey;
-	background: #2D2E2E;
+	background: transparent;
 	text-transform: none;
 	}
 
 	#goodmorning-content {
 	padding-top: 20px;
-        padding-left: 6px;
-        padding-right: 60px;
-        padding-bottom: 20px;
-	width: 400px;
+    padding-left: 6px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+	width: 500px;
 	}
 	
 	#goodnight {
@@ -39,100 +125,94 @@ html{
 	left: 0px;
 	bottom: 0px;
 	text-align: left;
-	font-family: 'times', serif;
-	font-size: 18px;
-	line-height: 16px;
+	font-family: helvetica;
+	font-size: 12px;
 	color: grey;
 	background: transparent;
 	text-transform: none;
 	}
 	
 	#goodnight-content {
-        padding-top: 20px;
-        padding-left: 60px;
-        padding-right: 60px;
-        padding-bottom: 20px;
-        width: 400px;
-        float: right;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    width: 500px;
+    float: right;
 	}
-
-h1, h2, h3{
-  font-family: 'times', serif;
-}
-
-h1{
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 54px;
-  text-align: left;
-  color: #DAFEEA;
-  padding: 0em;
-  margin-bottom: 2em;
-
-}
-
-h3{
-  text-transform: uppercase;
-  font-weight: bold;
-  padding-top: 1.5em;
-}
-
-h4{
-  font-weight: bold;
-}
-
-.list{
-  padding: 3em 8em;
-  animation: fadein 2s;
-  position: relative;
-  z-index: 0;
-}
-
-a:link {
-  color: #2D2E2E;
-  background-color: #DAFEEA;
-  text-decoration: underline;
-  line-height: 21px;
-}
-
-a:visited {
-  color: #2D2E2E;
-  background-color: #DAFEEA;
-  text-decoration: underline;
-  line-height: 21px;
-}
-
-a:hover {
-  color: #2D2E2E;
-  background-color: #2D2E2E;
-  text-decoration: underline;
-  line-height: 21px;
-}
-
-.bio{
-  padding: 1.8em 0em 3em 2em;
-  text-align: justify;
-  float: left;
-  width: 40vw;
-  z-index: 99999;
-  position: relative;
-}
-
-.bioTitle{
-  display: none;
-}
-
-.contact{
-  text-align: center;
-  margin-bottom: 3em;
-}
-.contact h3{
-  font-size: 1.8em;
-}
-
-.contact a{
-  text-decoration: underline;
-}
+	
+	
+	h1 {
+	font-size: 14px;
+	font-family: Helvetica;
+	color: #1B2631;
+	line-height: 11px;
+	padding-bottom: 20px;
+	text-transform: lowercase;
+	padding-left: 40px;
+	}
+	
+	h2 {
+	font-size: 14px;
+	font-family: Helvetica;
+	color: #1B2631;
+	line-height: 11px;
+	padding-top:40px;
+	padding-bottom: 20px;
+	text-transform: lowercase;
+	}
+	
+	h3 {
+	font-size: 14px;
+	font-family: Helvetica;
+	color: #1B2631;
+	line-height: 11px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	text-transform: lowercase;
+	text-align: left;
+	}
+	
+	a {
+	font-size: 14px;
+	font-family: Helvetica;
+	color: #1B2631;
+	line-height: 11px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	text-transform: lowercase;
+	text-align: left;
+	text-decoration: none;
+	}
+	
+	h4 {
+	font-size: 14px;
+	font-family: Helvetica;
+	color: #1B2631;
+	line-height: 11px;
+	padding-bottom: 20px;
+	text-transform: lowercase;
+	padding-left: 40px;
+	text-align: right;
+	}
+	
+    ol {
+    font-size: 14px;
+	font-family: Helvetica;
+	color: #1B2631;
+    list-style-type: none;
+    font-weight: 300;
+	text-transform: none;
+    }
+    
+    .content {
+    font-size: 14px;
+	font-family: Helvetica;
+	color: #1B2631;
+    list-style-type: none;
+    font-weight: 300;
+	text-transform: none;
+    }
     
     .img {
     width: 100%;
@@ -161,14 +241,14 @@ a:hover {
     animation: color-animation2 15s ease infinite normal;
     }
 
-    .disable-text {
+
+	.disable-text {
      -moz-user-select: none; /* Firefox */
      -ms-user-select: none; /* Internet Explorer */
      -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
      -webkit-user-select: none; /* Chrome, Safari, and Opera */
      -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
     }
-
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -179,5 +259,5 @@ a:hover {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
-</style>
+    
+	</style>
