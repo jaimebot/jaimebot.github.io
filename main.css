@@ -118,7 +118,7 @@ a:hover {
     top: 0;
     height: 100%;
     width: 50%;
-    overflow-x: scroll;
+    overflow-y: scroll;
     animation: color-animation1 15s ease infinite normal;
     }
 
@@ -126,7 +126,7 @@ a:hover {
     bottom: 0;
     height: 100%;
     width: 50%;
-    overflow-x: scroll;
+    overflow-y: scroll;
     animation: color-animation2 15s ease infinite normal;
     }
 
