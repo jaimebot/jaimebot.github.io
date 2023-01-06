@@ -11,18 +11,19 @@
 	left: 0px;
 	bottom: 0px;
 	text-align: left;
-	font-family: helvetica;
-	font-size: 12px;
+        font-family: 'times', serif;
+	font-size: 18px;
+	line-height: 16px;
 	color: grey;
-	background: transparent;
+	background: #2D2E2E;
 	text-transform: none;
 	}
 
 	#goodmorning-content {
 	padding-top: 20px;
-    padding-left: 6px;
-    padding-right: 60px;
-    padding-bottom: 20px;
+   	padding-left: 6px;
+    	padding-right: 60px;
+    	padding-bottom: 20px;
 	width: 500px;
 	}
 	
@@ -31,20 +32,21 @@
 	left: 0px;
 	bottom: 0px;
 	text-align: left;
-	font-family: helvetica;
-	font-size: 12px;
+	font-family: 'times', serif;
+	font-size: 18px;
+	line-height: 16px;
 	color: grey;
 	background: transparent;
 	text-transform: none;
 	}
 	
 	#goodnight-content {
-    padding-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 20px;
-    width: 500px;
-    float: right;
+    	padding-top: 20px;
+    	padding-left: 60px;
+    	padding-right: 60px;
+    	padding-bottom: 20px;
+    	width: 500px;
+    	float: right;
 	}
 	
 	
@@ -102,26 +104,26 @@
 	text-align: right;
 	}
 	
- .list{
-  padding: 3em 8em;
-  animation: fadein 2s;
-  position: relative;
-  z-index: 0;
-}
+ 	.list{
+  	padding: 3em 8em;
+  	animation: fadein 2s;
+  	position: relative;
+  	z-index: 0;
+	}
     
-    .content {
-    font-size: 14px;
-	font-family: Helvetica;
+    	.content {
+    	font-size: 18px;
+	font-family: 'times', serif;
 	color: #1B2631;
-    list-style-type: none;
-    font-weight: 300;
+    	list-style-type: none;
+    	font-weight: 300;
 	text-transform: none;
-    }
+    	}
     
-    .img {
-    width: 100%;
-    height: 100%;
-    }
+    	.img {
+    	width: 100%;
+    	height: 100%;
+    	}
     
     .top, .bottom {
     position: absolute;
